@@ -57,7 +57,7 @@ OWNER_ID = 8036182138 # Replace with the actual owner's user ID
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [8036182138]
 
-AUTH_CHANNEL = -1002508421961
+AUTH_CHANNEL = -1002476600108
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -613,6 +613,8 @@ async def upload(bot: Client, m: Message):
              id =  url.split("/")[-2]
              #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
              url = f"https://madxabhi-pw.onrender.com/{id}/master.m3u8?token={raw_text4}"
+             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={your_working_token}" just paste you pw working token in {your_working_token}
+                
             #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
              #url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
